@@ -1,0 +1,29 @@
+
+
+
+public class Lab03a {
+  public class void main(String[] args){
+    for ( int x = 0; x <= 50; x++ )
+{
+    System.out.println( x );
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+
+  }
+}
