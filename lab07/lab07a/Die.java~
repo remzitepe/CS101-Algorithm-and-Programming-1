@@ -1,0 +1,22 @@
+ public class Die{
+    
+   int faceValue;
+    
+   public int roll() {
+      int roll;
+      do {
+         roll = 1 + (int) ( 6 * Math.random() );
+      } while( roll > 6 );
+    
+      faceValue = roll;
+      return faceValue;
+  }
+    
+    public int getFaceValue() {
+       return getFaceValue;
+   }
+       
+     
+     
+  
+}

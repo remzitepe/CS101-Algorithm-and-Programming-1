@@ -1,0 +1,23 @@
+/*
+ * OOP
+ * @author__Remzi_Tepe__
+ * Qversion__26.11.19__
+ * */
+public class TestLibraryBook {
+
+   public static void main( String[] args ) {
+
+     LibraryBook book1 = new LibraryBook( "The Great Gasby", "FitzGerald", "11.11.19",8 );
+     LibraryBook book2 = new LibraryBook( "IT", "Stephen King","12.12.20",5 );
+     LibraryBook book3 = new LibraryBook( "The Shining", "Stephen King","",0 );
+     if ( book1.equals(book2)
+     {
+        System.out.println( book1 + " and " + book2 + " are the same " ); 
+     }
+     System.out.println( book1 );
+     System.out.println( book2 );
+     System.out.println( book3 );
+
+  }
+
+}

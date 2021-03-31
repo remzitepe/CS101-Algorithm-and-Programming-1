@@ -1,0 +1,36 @@
+public class Library {
+   private LibraryBook b1;
+   private LibraryBook b2;
+   private LibraryBook b3;
+   private LibraryBook b4;
+   
+   public Library(){
+      b1 = null;
+      b2 = null;
+      b3 = null;
+      b4 = null;
+   }
+   public isEmpty() {
+      return ( b1 == null) && ( b2 == null) && ( b3 == null) && ( b4 == null);
+   }
+   public String toString(){
+     if ( b1 != null)
+     { 
+        return "Title: " + b1.getTitle() + " author: " + b1.getAuthor();
+     }
+      if ( b2 != null)
+     { 
+        return "Title: " + b2.getTitle() + " author: " + b2.getAuthor();
+     }
+      if ( b3 != null)
+     { 
+        return "Title: " + b3.getTitle() + " author: " + b3.getAuthor();
+     }
+      if ( b4 != null)
+     { 
+        return "Title: " + b4.getTitle() + " author: " + b4.getAuthor();
+     }
+     else 
+        return "The library is empty. ";
+   }
+}

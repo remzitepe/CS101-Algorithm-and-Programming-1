@@ -1,0 +1,40 @@
+/*
+ * OOP
+ * @author__Remzi_Tepe__
+ * Qversion__26.11.19__
+ * */
+public class LibraryBook {
+
+   private String title;
+   private String author;
+   private String dueDate;
+   private int timesLoaned;
+  
+   public LibraryBook( String title, String author, String dueDate, int timesLoaned) {
+
+     this.title = title;
+     this.author = author;
+     this.dueDate = dueDate;
+     this.timesLoaned = timesLoaned;
+
+   }
+
+   public String toString() {
+    
+     return "This book is named " + title + ", written by " + author + ", due date: " + dueDate + ", loaned times: " + timesLoaned + ".";
+
+  }
+   public void returnBook() {
+      dueDate = "";
+   }
+
+   public int getTimesLoaned() {
+      return timesLoaned;
+   }
+  
+   public boolean onLoan() {
+      if( dueDate.equals("") )
+         return false;
+      return true;
+   } 
+}

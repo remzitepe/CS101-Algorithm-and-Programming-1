@@ -1,0 +1,12 @@
+public class testDice{
+  public static void main( String[]  args){
+    
+    dice1.roll();
+    dice2.roll();
+    
+    System.out.println(dice1 + "\t" + dice2);
+    
+  }
+  
+  
+}

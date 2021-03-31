@@ -1,0 +1,14 @@
+public class LibraryBook{
+   
+  String title;
+  String author;
+  String dueDate;
+  int timesLoaned;
+  
+  public String toString(){
+    
+    return "title: " + title + "author: " + author + "due Date: " + dueDate + "Loaned time " + timesLoaned;
+    
+  }
+  
+}

@@ -1,0 +1,13 @@
+public class TestLibraryBook{
+  public static void main( String[] args){
+     title title_1 = new title(); 
+     author author_1 = new author();
+     dueDate dueDate_1 = new dueDate();
+     timesLoaned timesLoaned_1 = new timesLoaned();
+    
+    
+  }
+  
+  
+  
+}
